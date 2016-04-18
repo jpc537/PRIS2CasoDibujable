@@ -18,12 +18,12 @@ class VentanaCerrable extends Frame implements WindowListener {
 	@Override
 	// métodos de la interface WindowsListener
 	public void windowActivated(WindowEvent e) {
-		;
+		//TODO;
 	}
 
 	@Override
 	public void windowClosed(WindowEvent e) {
-		;
+		//TODO;
 	}
 
 	@Override
@@ -33,21 +33,22 @@ class VentanaCerrable extends Frame implements WindowListener {
 
 	@Override
 	public void windowDeactivated(WindowEvent e) {
-		;
+		//TODO;
 	}
 
 	@Override
 	public void windowDeiconified(WindowEvent e) {
-		;
+		//TODO;
 	}
 
 	@Override
 	public void windowIconified(WindowEvent e) {
-		;
+		//TODO;
 	}
 
 	@Override
 	public void windowOpened(WindowEvent e) {
+		//TODO
 		;
 	}
 }

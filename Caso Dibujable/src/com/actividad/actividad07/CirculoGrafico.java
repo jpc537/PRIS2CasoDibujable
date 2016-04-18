@@ -24,6 +24,6 @@ public class CirculoGrafico extends Circulo implements Dibujable {
 	@Override
 	
 	public void setPosicion(double x, double y) {
-		
+		//TODO
 	}
 }
