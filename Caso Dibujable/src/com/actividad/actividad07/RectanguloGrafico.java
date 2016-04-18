@@ -1,4 +1,4 @@
-package actividad07;
+package com.actividad.actividad07;
 
 import java.awt.Graphics;
 import java.awt.Color;
@@ -14,12 +14,14 @@ class RectanguloGrafico extends Rectangulo implements Dibujable {
 		this.color = unColor; // en este caso this es opcional
 	}
 
+	@Override
 	// métodos de la interface Dibujable
 	public void dibujar(Graphics dw) {
 		dw.setColor(color);
 		dw.drawRect((int) x1, (int) y1, (int) (x2 - x1), (int) (y2 - y1));
 	}
 
+	@Override
 	public void setPosicion(double x, double y) {
 		; // método vacío, pero necesario de definir
 	}

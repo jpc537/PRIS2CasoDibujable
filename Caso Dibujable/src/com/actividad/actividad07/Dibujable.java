@@ -1,4 +1,4 @@
-package actividad07;
+package com.actividad.actividad07;
 
 import java.awt.Graphics;
 

@@ -1,4 +1,4 @@
-package actividad07;
+package com.actividad.actividad07;
 
 import java.awt.*;
 import java.util.ArrayList;
@@ -15,6 +15,7 @@ public class PanelDibujo extends Panel {
 	}
 
 	// redefinición del método paint()
+	@Override
 	public void paint(Graphics g) {
 		Dibujable dib;
 		Iterator it;

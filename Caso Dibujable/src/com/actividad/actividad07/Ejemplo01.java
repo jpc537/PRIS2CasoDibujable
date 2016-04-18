@@ -1,4 +1,4 @@
-package actividad07;
+package com.actividad.actividad07;
 
 import java.util.ArrayList;
 import java.awt.*;
@@ -12,7 +12,7 @@ class Ejemplo1 {
 		Circulo c1 = new Circulo(1.0, 1.0, 2.0);
 		Circulo c2 = new Circulo(0.0, 0.0, 3.0);
 		c = c1.elMayor(c2);
-		System.out.println("El mayor radio es " + c.r + ".");
+		System.err.println("El mayor radio es " + c.r + ".");
 		c = new Circulo(); // c.r = 0.0;
 		c = Circulo.elMayor(c1, c2);
 		System.out.println("El mayor radio es " + c.r + ".");
