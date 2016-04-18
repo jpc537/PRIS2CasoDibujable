@@ -1,6 +1,6 @@
 package com.actividad.actividad07;
 
-public class Rectangulo extends Geometria {
+public class Rectangulo implements Geometria {
 	// definición de variables miembro de la claes
 	private static int numRectangulos = 0;
 	protected double x1;

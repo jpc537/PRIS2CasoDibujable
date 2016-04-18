@@ -18,37 +18,36 @@ class VentanaCerrable extends Frame implements WindowListener {
 	@Override
 	// métodos de la interface WindowsListener
 	public void windowActivated(WindowEvent e) {
-		//TODO;
+		this.setEnabled(true);
 	}
 
 	@Override
 	public void windowClosed(WindowEvent e) {
-		//TODO;
+		this.dispose();
 	}
 
 	@Override
 	public void windowClosing(WindowEvent e) {
-		System.exit(0);
+		this.dispose();
 	}
 
 	@Override
 	public void windowDeactivated(WindowEvent e) {
-		//TODO;
+		this.setEnabled(false);
 	}
 
 	@Override
 	public void windowDeiconified(WindowEvent e) {
-		//TODO;
+		this.setIconImage(null);
 	}
 
 	@Override
 	public void windowIconified(WindowEvent e) {
-		//TODO;
+		this.setIconImage(getIconImage());
 	}
 
 	@Override
 	public void windowOpened(WindowEvent e) {
-		//TODO
-		;
+		e.getWindow();
 	}
 }

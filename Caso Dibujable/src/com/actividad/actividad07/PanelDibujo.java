@@ -6,10 +6,10 @@ import java.util.Iterator;
 
 public class PanelDibujo extends Panel {
 	// variable miembro
-	private ArrayList v;
+	private ArrayList<Geometria> v;
 
 	// constructor
-	public PanelDibujo(ArrayList va) {
+	public PanelDibujo(ArrayList<Geometria> va) {
 		super(new FlowLayout());
 		this.v = va;
 	}
